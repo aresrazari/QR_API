@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_qr_reader">
+
+    <fragment
+        android:id="@+id/navigation_qr_reader"
+        android:name="com.marklwembe.qrapi.ui.qrreader.QrReaderFragment"
+        android:label="@string/title_qr_reader"
+        tools:layout="@layout/fragment_qr_reader" />
+
+    <fragment
+        android:id="@+id/navigation_qr_generator"
+        android:name="com.marklwembe.qrapi.ui.qrgenerator.QrGeneratorFragment"
+        android:label="@string/title_qr_generator"
+        tools:layout="@layout/fragment_qr_generator" />
+</navigation>

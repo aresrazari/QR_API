@@ -1,0 +1,19 @@
+<resources>
+    <!--App Names-->
+    <string name="app_name">QR API</string>
+
+    <!--Activity titles-->
+    <string name="title_activity_redirect_successful">RedirectSuccessful</string>
+    <string name="title_activity_quick_response">Quick Response</string>
+
+    <!--Fragment titles-->
+    <string name="title_qr_reader">Qr Reader</string>
+    <string name="title_qr_generator">Qr Generator</string>
+
+    <!--TextViews strings-->
+    <string name="align">Please align the QR code!</string>
+    <string name="success">Redirect Successful!</string>
+
+
+
+</resources>
